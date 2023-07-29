@@ -1,0 +1,50 @@
+body {
+      background-color: blue;
+}
+.container {
+    display: flex;
+    gap: 2rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.description{
+        width: 80%;
+        text-align: center;
+        margin-top: 1rem;
+        opacity: .65;
+    
+}
+.discount {
+    font-size: 20px;
+}
+
+button {
+    background-color: blue;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem 3rem;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 255, 0.849);
+}
+
+.img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
